@@ -1,7 +1,12 @@
+import { Heading } from "@chakra-ui/react";
 import "./App.css";
 
 function App() {
-  return <h1>Welcome op mijn pagina</h1>;
+  return (
+    <>
+      <Heading as={"h1"}>Hello</Heading>
+    </>
+  );
 }
 
 export default App;
