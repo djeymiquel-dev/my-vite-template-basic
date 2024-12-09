@@ -11,5 +11,9 @@ export default defineConfig({
 
   server: {
     open: true,
+    hmr: true,
+    watch: {
+      usePolling: true,
+    },
   },
 });
